@@ -1,28 +1,44 @@
+
+
 body {
   font-family: 'Karla', sans-serif;
   background-color: #457ac9;
   color: #ffffff;
   padding-bottom: 75px; }
-  @media (max-width: 767px) {
-    body {
-      padding-bottom: 30px; } }
+@media (max-width: 767px) {
+  body {
+    padding-bottom: 30px; } }
 
 @media (max-width: 991px) {
-  .section-left {
+  .section-left .container{
     padding: 24px 40px; } }
 
-.page-title {
+.page-title .container{
   font-size: 40px;
   font-weight: bold;
   margin-bottom: 98px; }
   @media (max-width: 991px) {
-    .page-title {
-      font-size: 35px;
-      margin-bottom: 48px; } }
+    .page-title .container{
+      line-height: 30px;
+      width: 30px;
+      height: 30px;
+      font-size: 14px; } 
+ } 
+      
   @media (max-width: 767px) {
-    .page-title {
-      font-size: 30px;
-      margin-bottom: 48px; } }
+    .page-title .container{
+      line-height: 30px;
+      width: 30px;
+      height: 30px;
+      font-size: 14px;  } }
+  @media (max-width: 337px) {
+    .page-title .container{
+      line-height: 30px;
+      width: 30px;
+      height: 30px;
+      font-size: 14px;  } }
+    
+
 
 .bd-cd-timer {
   display: flex;
